@@ -16,26 +16,6 @@ A complete web-based solution for tracking, analyzing, and reporting student per
 
 ---
 
-## 📁 Project Structure
-
-📁 student-course-assessment/
-├── assets/ # CSS and JS assets
-├── database.sql # SQL dump for setting up DB schema
-├── db_connect.php # DB connection file (use your local credentials)
-├── index.php # Main dashboard with navigation
-├── form.php # Enter student marks
-├── display.php # Display student records
-├── performance.php # Direct CO calculation
-├── feedback.php # Indirect feedback form
-├── final_attainment.php # Combines direct + indirect scores
-├── co_po_mapping.php # Map COs to POs/PSOs
-├── po_attainment.php # Calculate PO/PSO scores
-├── assessment_summary.php # Full report summary
-├── report.php # Printable version of the report
-
-
----
-
 ## 🛠️ Technologies Used
 
 - **PHP 8.2**
@@ -47,9 +27,38 @@ A complete web-based solution for tracking, analyzing, and reporting student per
 
 ---
 
-🧑‍🏫 About the Project
+## 🧑‍🏫 About the Project
+
 This system is designed for internal use in educational institutes to:
-Measure Course Outcomes (CO) through internal & external assessments
-Track Program Outcomes (POs/PSOs)
-Improve faculty performance through feedback mapping
-Maintain accurate and structured academic records
+
+- ✅ Measure Course Outcomes (CO) through internal & external assessments  
+- 📈 Track Program Outcomes (POs/PSOs)  
+- 🧠 Improve faculty performance through feedback mapping  
+- 📚 Maintain accurate and structured academic records
+
+---
+
+## 🖥️ How to Run
+
+1. Clone or download the project.
+2. Move the folder to your XAMPP `htdocs` directory.
+3. Import `database.sql` in **phpMyAdmin**.
+4. Edit `db_connect.php` with your MySQL credentials.
+5. Start **Apache** and **MySQL** via XAMPP.
+6. Open browser and go to:  http://localhost/student-course-assessment/
+
+---
+
+## 👩‍💻 Developed By
+
+**Rocking Girls of CSIT**  
+Course Assessment System · July 2025  
+Built with ❤️ using PHP + MySQL + HTML + CSS
+
+---
+
+## 📄 License
+
+This project is for educational purposes. Feel free to customize and build on it!
+
+
