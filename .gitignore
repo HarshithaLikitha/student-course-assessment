@@ -1,0 +1,19 @@
+# 🔒 Ignore sensitive DB config
+db_connect.php
+
+# 🧪 Ignore database SQL if not needed in repo
+database.sql
+
+# 💻 Ignore system and IDE/editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 📦 Ignore future dependencies if added
+vendor/
+node_modules/
+
+# 📝 Ignore logs and cache
+*.log
+*.cache
