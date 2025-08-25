@@ -54,7 +54,7 @@ This system is designed for internal use in educational institutes to:
 **Rocking Girls of CSIT**  
 Course Assessment System · July 2025  
 Built with ❤️ using PHP + MySQL + HTML + CSS
-
+![Screenshot](./Screenshot%202025-08-25%20114354.png)
 ---
 
 ## 📄 License
