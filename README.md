@@ -60,6 +60,8 @@ Built with ❤️ using PHP + MySQL + HTML + CSS
 ## 📄 License
 
 This project is for educational purposes. Feel free to customize and build on it!
+![Project Review](Screenshot 2025-08-25 114354.png)
+
 
 
 
